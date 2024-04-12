@@ -12,8 +12,9 @@
     background-color: #242422;
 }
 h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p {
-    color: #fff;
+    color:#ffffff;
 }
+
 /* NAVBAR DESKTOP */
 
 nav ul li a {
@@ -85,7 +86,7 @@ justify-content: space-evenly;
 
 /* NAVBAR MOBILE */
 
-@media (max-width: 991px) 
+@media (max-width: 900px) 
 {
     .content {
         min-height: 70px;
@@ -279,7 +280,7 @@ button:hover {
    margin-top: 100px;
    margin-bottom: 50px;
    font-size: 50px;
-  
+  color: #fff;
 }
 .tituloindex p {
     display: flex;
@@ -456,16 +457,19 @@ button:hover {
     text-align: center;
     padding: auto;
     padding-bottom: 20px;
+   
 }
 
 .header h1 {
     font-size: 70px;
     margin: 70px;
+    color: #fff;
     
 }
 .header p {
     
     font-size: 35px;
+    color: #fff;
 
 }
 
@@ -477,6 +481,7 @@ button:hover {
     background-size: cover;
     margin-right: 10px;
 }
+
 
 
 
@@ -494,6 +499,7 @@ button:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
 .header-logoindex h1:hover {
     transform: scale(1.1);
     transition: 0.5s;
@@ -505,7 +511,7 @@ button:hover {
     justify-content: center;
     margin-top: 30px;  
     margin-bottom: 40px;
-    
+  
 }
 
 
